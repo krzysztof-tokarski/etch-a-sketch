@@ -1,0 +1,153 @@
+/* BODY */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: stretch;
+    overflow: auto;
+    margin: 0;
+    min-height: 100vh;
+    /* font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: theBlackLight;
+    color:rgba(0, 0, 0, 0.822);
+}
+
+
+
+/* HEADER */
+
+
+#header {
+    padding-top: 25px;
+    flex: 1;
+    text-align: center;
+    gap: 50px;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.game-title {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: theBlackLight;
+}
+
+#footer,
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.button {
+    font-family: theBlackLight;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    border-style:double;
+    border-radius: 15px;
+    background-color: rgb(243, 218, 181);
+    color:rgba(0, 0, 0, 0.822);
+    margin-bottom: -50px;
+}
+
+.resetButton {
+    width: 150px;
+}
+
+form .button {
+    margin-left: 10px;
+}
+
+
+
+/* MAIN */
+
+
+#main {
+    display: flex;
+    flex-direction: column;
+    flex:9;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.gridContainer {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid rgb(138, 88, 13);
+    height: 600px;
+    width: 600px;
+
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    font-size: 30px;
+}
+
+
+/* FOOTER */
+
+
+#footer {
+    flex: 0.5;
+    font-weight: bold;
+    row-gap: 10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+
+
+
+/* SPECIFIC ELEMENTS */
+
+
+a {
+    text-decoration: none;
+}
+
+.GitHub-logo {
+    height: 40px;
+}
+
+@font-face {
+    font-family: theBlackLight;
+    src: url(./fonts/TheBlacklight.ttf);
+}
+
+/* .move {
+    height: 200px;
+    padding: 5px;
+} */
+
+.hover {
+    box-shadow: 0 0 2rem #ec9864;
+}
+
+.gridCell {
+    flex: 1;
+    border: 1px groove rgb(243, 218, 181);
+    background-color: white;
+}
+
+.gridColumn {
+    flex: 1;
+    border: 1px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.black {
+    background-color: black;
+}
