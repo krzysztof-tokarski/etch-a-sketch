@@ -33,6 +33,8 @@ function createGrid (num) {
           gridColumns = document.querySelectorAll('.gridColumns');
           gridCells = document.querySelectorAll('.gridCell');
           gridContainer.addEventListener('click',colorBlack)
+     } else {
+          gridContainer = null
      }
 }
 
