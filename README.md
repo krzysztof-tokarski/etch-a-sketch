@@ -3,6 +3,7 @@
 My second project with GUI, reused HTML and some of CSS from the rock paper scissors project to faciliate the deployment.
 
 Stuff that can certainly be fixed:
+- it's desktop only, fixed sizes, no media queries;
 - eventlisteners where pseudoclasses were sufficient;
 - overall layout;
 - add few more buttons (random color, grid slider to the grid size this way, instead of entering a number).
